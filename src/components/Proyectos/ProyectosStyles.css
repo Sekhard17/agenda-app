@@ -1,0 +1,92 @@
+/* Estilos para los componentes de Proyectos */
+
+/* Tarjetas de proyectos */
+.proyecto-card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.proyecto-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Animaciones para los elementos del calendario */
+.calendario-dia {
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.calendario-dia:hover:not(.dia-otro-mes) {
+  background-color: rgba(59, 130, 246, 0.1);
+}
+
+.calendario-dia.seleccionado {
+  transform: scale(0.98);
+}
+
+/* Animaciones para las actividades */
+.actividad-item {
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.actividad-item:hover {
+  transform: translateX(4px);
+}
+
+/* Efectos para los botones de acción */
+.boton-accion {
+  transition: all 0.2s ease;
+}
+
+.boton-accion:hover {
+  filter: brightness(1.1);
+}
+
+.boton-accion:active {
+  transform: scale(0.95);
+}
+
+/* Animación para el spinner de carga */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spinner {
+  animation: spin 1s linear infinite;
+}
+
+/* Efectos para los badges de estado */
+.badge-estado {
+  transition: all 0.2s ease;
+}
+
+.badge-estado:hover {
+  filter: brightness(1.1);
+}
+
+/* Animación para los tooltips */
+.tooltip {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.tooltip-trigger:hover .tooltip {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Estilos para el modo oscuro */
+@media (prefers-color-scheme: dark) {
+  .proyecto-card:hover {
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .calendario-dia:hover:not(.dia-otro-mes) {
+    background-color: rgba(59, 130, 246, 0.2);
+  }
+}

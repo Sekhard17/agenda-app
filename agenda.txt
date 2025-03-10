@@ -1,0 +1,49 @@
+Agenda te Actividades. 
+•	Sirve para llevar un control de los requerimientos y actividades diarias de los funcionarios. Es una herramienta muy útil para el control de proyectos o llevar un control de lo realizado diariamente por los funcionarios. 
+
+•	Con esta herramienta se pretende llevar un análisis tanto para control de actividades como control de proyectos y sus actividades. 
+
+o	Control de las actividades diarias.  Informes de actividades.
+
+o	Informes de gestión. 
+
+o	Asignar tareas y llevar el control de las actividades. Al asignar una tarea se puede adjuntar varios documentos. 
+
+•	Un supervisor puede ver y asignar proyectos solo a sus supervisados (REX).
+
+•	Debe tener las siguientes opciones:
+
+o	Proceso, se guardan las actividades y se puede volver a editar. Solo se puede editar si estoy dentro del mismo día. 
+
+o	Enviar, se finaliza las actividades diarias y se envía mail a su supervisor, se pueden enviar agendas de otros días. 
+
+o	La agenda es diaria, no puedo completar datos de días anteriores.
+
+•	Informes de actividades (Grilla y poder exportar a Excel)
+
+o	Filtros:
+	Por supervisado
+	Fecha de agenda
+	Por proyecto asignado. 
+
+•	Este producto debemos pensarlo en poder generar recurso con él, por lo tanto, debe ser independiente.
+
+•	Solicitar Actividad y horario inicio y final, con un campo de detalle.
+
+o	Actividad  Texto o proyecto.
+o	Hora de inicio solicitar
+o	Hora de termino solicitar
+o	Detalle actividad  Texto 
+o	Opcional adjuntar documento. 
+•	Validar que cuando se ingrese una nueva actividad no se superpongan en el horario. 
+
+•	Las jefaturas pueden ver las actividades de su supervisados. 
+
+o	Seleccionar supervisado 
+o	Mostrar pantalla ordenado por fecha en forma descendente 
+	Poder exportar a Excel. 
+o	Al hacer click en un dia, esta mostrara en otra pantalla las actividades diarias.
+	Poder exportar a Excel. 
+o	Al hacer click en una actividad diaria mostrar el detalle de esta.
+
+•	Los funcionarios pueden ver sus actividades diarias.

@@ -1,0 +1,55 @@
+Agenda de Actividades
+
+Descripción General:
+La Agenda de Actividades es una herramienta diseñada para llevar un control detallado de los requerimientos y actividades diarias de los funcionarios. Es especialmente útil para la gestión de proyectos y el seguimiento de las tareas realizadas diariamente por el personal.
+
+Objetivos:
+
+Facilitar el control y análisis de las actividades diarias y proyectos.
+Generar informes de actividades y gestión.
+Asignar tareas y adjuntar documentos relevantes.
+Permitir a los supervisores gestionar las actividades de sus supervisados.
+Funcionalidades Clave:
+
+Control de Actividades Diarias:
+
+Registro y edición de actividades diarias.
+Generación de informes de actividades.
+Asignación de tareas con la opción de adjuntar documentos.
+Gestión de Proyectos:
+
+Los supervisores pueden ver y asignar proyectos a sus supervisados (REX).
+Validación de horarios para evitar superposición de actividades.
+Opciones de la Agenda:
+
+Proceso: Guardar y editar actividades dentro del mismo día.
+Enviar: Finalizar actividades diarias y enviar un correo electrónico al supervisor. Se pueden enviar agendas de otros días.
+La agenda es diaria y no permite completar datos de días anteriores.
+Informes de Actividades:
+
+Generación de informes en formato de grilla con opción de exportar a Excel.
+Filtros disponibles:
+Por supervisado.
+Por fecha de agenda.
+Por proyecto asignado.
+Independencia del Producto:
+
+La herramienta debe ser independiente y capaz de generar recursos.
+Solicitud de Actividades:
+
+Campos requeridos: Actividad (texto o proyecto), hora de inicio, hora de término, detalle de la actividad.
+Opcional: Adjuntar documentos.
+Visualización para Jefaturas:
+
+Las jefaturas pueden ver las actividades de sus supervisados.
+Selección de supervisado y visualización de actividades ordenadas por fecha en forma descendente.
+Exportación a Excel de las actividades diarias y detalles específicos.
+Visualización para Funcionarios:
+
+Los funcionarios pueden ver sus actividades diarias.
+Requisitos Técnicos:
+
+Interfaz intuitiva y fácil de usar.
+Validación de datos para evitar errores en la entrada de información.
+Seguridad y privacidad de los datos de los usuarios.
+Compatibilidad con diferentes dispositivos y navegadores.
