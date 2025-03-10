@@ -297,7 +297,7 @@ const CalendarioActividades: React.FC<CalendarioActividadesProps> = memo(({
                 inline-flex items-center justify-center w-6 h-6 rounded-full text-sm
                 ${dia.fecha === new Date().toISOString().split('T')[0]
                   ? 'bg-blue-500 text-white'
-                  : 'text-gray-700 dark:text-gray-300'}
+                  : 'text-gray-900 dark:text-gray-300'}
               `}>
                 {dia.dia}
               </span>
