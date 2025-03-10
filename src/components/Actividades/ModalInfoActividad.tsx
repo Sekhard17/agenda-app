@@ -298,7 +298,7 @@ const ModalInfoActividad: React.FC<ModalInfoActividadProps> = ({
                   <button
                     type="button"
                     onClick={handleEliminar}
-                    className={`inline-flex items-center px-3 py-2 border shadow-sm text-sm leading-4 font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 dark:focus:ring-offset-gray-800 ${
+                    className={`inline-flex items-center px-3 py-2 border shadow-sm text-sm leading-4 font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 dark:focus:ring-offset-gray-800 bg-white dark:bg-gray-700 ${
                       confirmEliminar
                         ? 'border-red-300 text-white bg-red-600 hover:bg-red-700 dark:border-red-700'
                         : 'border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-200 bg-white dark:bg-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600'

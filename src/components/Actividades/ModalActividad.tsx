@@ -228,7 +228,7 @@ const ModalActividad: React.FC<ModalActividadProps> = ({
                     name="fecha"
                     value={actividad.fecha}
                     onChange={handleInputChange}
-                    className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white ${
+                    className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-900 dark:bg-gray-700 dark:border-gray-600 dark:text-white ${
                       errores.fecha ? 'border-red-500 dark:border-red-500' : 'border-gray-300 dark:border-gray-600'
                     }`}
                   />
@@ -250,7 +250,7 @@ const ModalActividad: React.FC<ModalActividadProps> = ({
                         name="id_proyecto"
                         value={actividad.id_proyecto || ''}
                         onChange={handleInputChange}
-                        className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white"
+                        className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-900 dark:bg-gray-700 dark:border-gray-600 dark:text-white"
                       >
                         <option value="">Seleccionar proyecto</option>
                         {proyectos.map(proyecto => (
@@ -285,7 +285,7 @@ const ModalActividad: React.FC<ModalActividadProps> = ({
                     name="hora_inicio"
                     value={actividad.hora_inicio}
                     onChange={handleInputChange}
-                    className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white ${
+                    className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-900 dark:bg-gray-700 dark:border-gray-600 dark:text-white ${
                       errores.hora_inicio ? 'border-red-500 dark:border-red-500' : 'border-gray-300 dark:border-gray-600'
                     }`}
                   />
@@ -305,7 +305,7 @@ const ModalActividad: React.FC<ModalActividadProps> = ({
                     name="hora_fin"
                     value={actividad.hora_fin}
                     onChange={handleInputChange}
-                    className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white ${
+                    className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-900 dark:bg-gray-700 dark:border-gray-600 dark:text-white ${
                       errores.hora_fin ? 'border-red-500 dark:border-red-500' : 'border-gray-300 dark:border-gray-600'
                     }`}
                   />
@@ -332,7 +332,7 @@ const ModalActividad: React.FC<ModalActividadProps> = ({
                   name="descripcion"
                   value={actividad.descripcion}
                   onChange={handleInputChange}
-                  className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:text-white ${
+                  className={`w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-900 dark:bg-gray-700 dark:border-gray-600 dark:text-white ${
                     errores.descripcion ? 'border-red-500 dark:border-red-500' : 'border-gray-300 dark:border-gray-600'
                   }`}
                   rows={3}
